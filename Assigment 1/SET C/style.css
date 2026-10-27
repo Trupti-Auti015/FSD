@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    background-color: lightblue;
+    text-align: center;
+    margin: 20px;
+}
+h1 {
+    color: darkblue;
+    background-color: white;
+    padding: 15px;
+}
+h2 {
+    color: green;
+}
+h3 {
+    color: darkblue;
+}
+img {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid darkblue;
+    border-radius: 10px;
+}
+ol {
+    display: inline-block;
+    text-align: left;
+    background-color: white;
+    padding: 20px 40px;
+}
+li {
+    margin: 8px;
+}
+a {
+    color: blue;
+    font-weight: bold;
+}
+p {
+    font-size: 16px;
+    background-color: white;
+    padding: 10px;
+}
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+</head>
+<body>
+    <h2> Employee Management System </h1>
+    <form action="/employee" method="POST">
+        <lable> Name:</lable>
+        <input type="text" name="name" required><br><br>
+        <label> Department:</label>
+        <input type="text"  name="department" required><br><br>
+        <button type="submit">Add Employee</button>
+    </form>
+    <h2>Employee Records</h2>
+    <table border="1" cellpadding="8">
+        <tr>
+            <th> Employee ID </th>
+            <th> Name </th>
+            <th> Department </th>
+        </tr>
+        {% for e in  employees %}
+        <tr>
+            <td>{{  e[0]  }} </td>
+            <td>{{  e[1]  }} </td>
+            <td>{{  e[2]  }} </td>
+        </tr>
+        {% endfor %}
+    </tabel></body></html>

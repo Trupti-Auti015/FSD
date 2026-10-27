@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <form action="/" method="POST">
+        <label>Enter Name:</label>
+        <input type="text" name="name"><br><br>
+        <label>Enter Rating:<label>
+        <input type="number" name="rating"><br><br>
+        <label>Enter comments:</label>
+        <textarea name="comments"></textarea><br><br>
+        <button type="submit">Submit</button>
+    </form>
+    <h2>Name:{{name}}</h2>
+    <h2>Rating:{{rating}}</h2>
+    <h2>Comments:{{comments}}</h2>
+</body>
+</html>
